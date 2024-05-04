@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: black;
+    padding: 2.5rem 4rem;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.input-container input {
+    flex: 1;
+    padding-left: 0.5rem;
+}
+
+.input-container input::placeholder {
+    color: white;
+}
+
+.input-container button {
+    width: 12rem;
+    cursor: pointer;
+}
+
+.input-container input,
+button {
+    border: 1px solid lightgray;
+    height: 3rem;
+    background-color: black;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 2rem 0rem;
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+    text-align: right;
+    color: white;
+}
+
+tr {
+    height: 4rem;
+}
+
+.img {
+    width: 4rem;
+}
+
+.img>img {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.name,
+.img {
+    text-align: left;
+}
+
+.name,
+.symbol {
+    width: 10rem;
+}
+
+.current_price {
+    width: 14rem;
+}
+
+.total_volume {
+    width: 16rem;
+}
+
+.percentage {
+    width: 12rem;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
