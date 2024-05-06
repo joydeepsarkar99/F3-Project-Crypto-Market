@@ -53,7 +53,7 @@ market_cap_btn.addEventListener("click", (eventDetails) => {
     const data_obj = localStorage.getItem("cryptoData")
     const crypto_data = JSON.parse(data_obj)
     crypto_data.sort(function(a,b){
-        return b.market_cap - a.market_cap
+        return a.market_cap - b.market_cap
     })
     display_table.innerHTML = ""
 
@@ -69,7 +69,7 @@ percentage_btn.addEventListener("click", (eventDetails) => {
     const data_obj = localStorage.getItem("cryptoData")
     const crypto_data = JSON.parse(data_obj)
     crypto_data.sort(function(a,b){
-        return b.market_cap_change_percentage_24h - a.market_cap_change_percentage_24h
+        return a.market_cap_change_percentage_24h - b.market_cap_change_percentage_24h
     })
     display_table.innerHTML = ""
 

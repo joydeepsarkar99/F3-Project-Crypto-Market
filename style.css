@@ -8,11 +8,13 @@
 }
 
 body {
-    background-color: black;
+    background-color: #31363F;
     padding: 2.5rem 4rem;
 }
 
 .input-container {
+    padding: 1rem;
+    background-color: #222831;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,17 +39,19 @@ body {
 button {
     border: 1px solid lightgray;
     height: 3rem;
-    background-color: black;
+    background-color: #222831;
     color: white;
 }
 
 table {
+    background-color: #222831;
     border-collapse: collapse;
     margin: 2rem 0rem;
     width: 100%;
 }
 
-td {
+td,
+th {
     padding: 8px;
     border-bottom: 2px solid #ddd;
     text-align: right;
@@ -90,9 +94,13 @@ tr {
 }
 
 .green {
-    color: green;
+    color: #AAFF00;
 }
 
 .red {
     color: red;
+}
+
+.hide {
+    display: none;
 }
